@@ -3,7 +3,8 @@ How to implement Facebook animation using CSS
 
 本文作者：George Phillips</br>
 翻译自：[原文地址](http://cloudcannon.com/deconstructions/2014/11/15/facebook-content-placeholder-deconstruction.html)</br>
-在线查看效果：[live demo](https://wuyanwuyan.github.io/facebook_css_animation/)。
+在线查看效果：[live demo](https://wuyanwuyan.github.io/facebook_css_animation/)
+
 Facebook首页，鼠标滚动到底，实时加载新动态，加载过程会是下面的动态效果。这种效果不是gif图，而是CSS动画实现。下面剖析如何实现。
 
 ![preview.gif](http://upload-images.jianshu.io/upload_images/2058960-650fc408a8cd2d73.gif?imageMogr2/auto-orient/strip)
