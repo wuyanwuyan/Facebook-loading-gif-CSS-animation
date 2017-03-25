@@ -1,9 +1,9 @@
 # Facebook-loading-gif-CSS-animation
 How to implement Facebook animation using CSS
 
-本文作者：George Phillips
-翻译自：[原文地址](http://cloudcannon.com/deconstructions/2014/11/15/facebook-content-placeholder-deconstruction.html)
-
+本文作者：George Phillips</br>
+翻译自：[原文地址](http://cloudcannon.com/deconstructions/2014/11/15/facebook-content-placeholder-deconstruction.html)</br>
+在线查看效果：[live demo](https://wuyanwuyan.github.io/facebook_css_animation/)。
 Facebook首页，鼠标滚动到底，实时加载新动态，加载过程会是下面的动态效果。这种效果不是gif图，而是CSS动画实现。下面剖析如何实现。
 
 ![preview.gif](http://upload-images.jianshu.io/upload_images/2058960-650fc408a8cd2d73.gif?imageMogr2/auto-orient/strip)
@@ -31,7 +31,9 @@ Facebook首页，鼠标滚动到底，实时加载新动态，加载过程会是
 ```
 ### 外部容器
 最外面是包裹这段动画的居中div容器。
+
 ![](http://upload-images.jianshu.io/upload_images/2058960-42532bda5021b2c3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ``` CSS
 .timeline-item {
     background: #fff;
@@ -177,4 +179,3 @@ Facebook首页，鼠标滚动到底，实时加载新动态，加载过程会是
 ```
 ### 结语
 当网站的数据异步加载时，给与用户加载的指示，让人心理上觉得等待时间变短，更倾向于继续留在网页上浏览。
-你可以点击链接在线查看效果：[live demo](https://wuyanwuyan.github.io/facebook_css_animation/)。
