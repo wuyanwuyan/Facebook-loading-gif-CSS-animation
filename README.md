@@ -1,5 +1,5 @@
 # Facebook-loading-gif-CSS-animation
-How to implement Facebook animation using CSS
+How to implement Facebook load animation using CSS
 
 本文作者：George Phillips</br>
 翻译自：[原文地址](http://cloudcannon.com/deconstructions/2014/11/15/facebook-content-placeholder-deconstruction.html)</br>
@@ -7,7 +7,7 @@ How to implement Facebook animation using CSS
 
 Facebook首页，鼠标滚动到底，实时加载新动态，加载过程会是下面的动态效果。这种效果不是gif图，而是CSS动画实现。下面剖析如何实现。
 
-![preview.gif](http://upload-images.jianshu.io/upload_images/2058960-650fc408a8cd2d73.gif?imageMogr2/auto-orient/strip)
+![preview.gif](https://github.com/wuyanwuyan/Facebook-loading-gif-CSS-animation/blob/master/preview/1.gif)
 ### HTML
 ```HTML
 <div class="timeline-wrapper">
@@ -33,7 +33,7 @@ Facebook首页，鼠标滚动到底，实时加载新动态，加载过程会是
 ### 外部容器
 最外面是包裹这段动画的居中div容器。
 
-![](http://upload-images.jianshu.io/upload_images/2058960-42532bda5021b2c3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://github.com/wuyanwuyan/Facebook-loading-gif-CSS-animation/blob/master/preview/2.jpg)
 
 ``` CSS
 .timeline-item {
@@ -51,7 +51,7 @@ Facebook首页，鼠标滚动到底，实时加载新动态，加载过程会是
 ### 动态背景
 接下来实现动态背景效果，使用CSS animation和背景渐变linear-gradient。
 
-![](http://upload-images.jianshu.io/upload_images/2058960-e75b8f85aa95035c.gif?imageMogr2/auto-orient/strip)
+![](https://github.com/wuyanwuyan/Facebook-loading-gif-CSS-animation/blob/master/preview/3.gif)
 ```CSS
 @keyframes placeHolderShimmer{
     0%{
@@ -78,7 +78,7 @@ Facebook首页，鼠标滚动到底，实时加载新动态，加载过程会是
 ### 添加大量阻挡住背景的div
 到现在效果看起来，就像一个巨大的进度条。我们添加大量的div，用来遮挡下面的背景动态效果。
 
-![](http://upload-images.jianshu.io/upload_images/2058960-6f533e174d81f67a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://github.com/wuyanwuyan/Facebook-loading-gif-CSS-animation/blob/master/preview/4.jpg)
 ```
 .background-masker {
     background: #fff;
