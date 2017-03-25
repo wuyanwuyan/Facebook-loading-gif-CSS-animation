@@ -79,7 +79,7 @@ Facebook首页，鼠标滚动到底，实时加载新动态，加载过程会是
 到现在效果看起来，就像一个巨大的进度条。我们添加大量的div，用来遮挡下面的背景动态效果。
 
 ![](https://github.com/wuyanwuyan/Facebook-loading-gif-CSS-animation/blob/master/preview/4.jpg)
-```
+``` CSS
 .background-masker {
     background: #fff;
     position: absolute;
